@@ -1,0 +1,17 @@
+body{
+    font-family: Verdana;
+}*{
+    margin: 0;
+    padding: 0;
+}
+header,footer{
+    position: absolute;
+    background-color: darkolivegreen;
+    width: 100%;
+}
+header{
+    height: 10vh;
+}
+footer{
+    height: 15vh;
+}
