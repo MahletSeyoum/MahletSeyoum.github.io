@@ -15,9 +15,7 @@ header{
     left: 15%;
 }
 footer{
-    height: 5vh;
-    bottom: 0px;
+    height: 0vh;
+    bottom: 5px;
 }
-/* #text-color {
-    background-color: seashell;
-    } */
+
