@@ -16,7 +16,7 @@ function tester(){
     })
     describe("teach", function(){
         it("recieves a string called subject and returns the teaher with the subject", function(){
-            assert.equal("John is now teaching Inheritance", T.teach("SE"));
+            assert.equal("John is now teaching Inheritance", T.teach("Inheritance"));
         })
     }) 
 }
