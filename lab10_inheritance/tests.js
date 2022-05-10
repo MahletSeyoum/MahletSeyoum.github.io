@@ -1,8 +1,9 @@
 
 function tester(){
     let T = new Teacher();
-    T.initialize("John", 25);
+    T.initialize("John", 30);
     T.teach("Inheritance");
+    
     describe("filter", function(){
         it("removes banned words from a string", function(){
             assert.equal("This house is nice!", "This house is not nice!".filter('not'))
@@ -15,7 +16,7 @@ function tester(){
         })
     })
     describe("teach", function(){
-        it("recieves a string called subject and returns the teaher with the subject", function(){
+        it("recieves a string called subject and returns the teacher with the subject", function(){
             assert.equal("John is now teaching Inheritance", T.teach("Inheritance"));
         })
     }) 
